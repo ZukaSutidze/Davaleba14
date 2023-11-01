@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=DM+Serif+Display&family=IBM+Plex+Sans:wght@400;700&family=Josefin+Sans:wght@300&family=Karla:wght@400;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --darkblue: #191826;
+    --white: #fff;
+    --orange: #FA7453;
+    --notfullywhite: #FCFAF9;
+}
+
+body{
+    font-family: 'IBM Plex Sans';
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Tablet{
+    display: none;
+}
+
+.Desktop{
+    display: none;
+}
+
+header{
+    padding: 0px 24px;
+    background-color: var(--white);
+    position: relative;
+    overflow: hidden;
+    width: 375px;
+    height: auto;
+}
+
+.equalizer{
+    font-size: 35px;
+    font-family: 'IBM Plex sans';
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.Wemake{
+    width: 327px;
+    color: var(--darkblue);
+    font-family: 'IBM Plex Sans';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -0.455px;
+    margin-top: 64px;
+}
+
+.blur1{
+    position: absolute;
+    left: 30px;
+    top: -10px;
+}
+
+.blur2{
+    position: absolute;
+    top:25px;
+    left: 30px;
+}
+
+.Asystem{
+    margin-top: 20px;
+    width: 327px;
+    color: var(--darkblue);
+    font-family: 'IBM Plex Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 162.5% ;
+}
+
+.Container{
+    height: 1136px;
+}
+
+.Parent{
+    width: 375px;
+    height: 600px;
+    background-color: var(--darkblue);
+    border-radius: 12px;
+    margin-top: 165px;
+    position: relative;
+    border: 2px solid black;
+}
+
+.Phone{
+    position: absolute;
+    z-index: 3;
+    top: -100px;
+    left: 80px;
+}
+.Shapes{
+   position: absolute;
+   z-index: 2;
+   top: 0;
+   left: 48px;
+}
+
+.Orangeoval{
+    width: 375px;
+    height: 546px;
+    border-radius: 12px;
+    background: var(--orange);
+    position: relative;
+    z-index: 5;
+    top: 375px;
+    left: -2px;
+}
+
+.EQ{
+    padding-left: 36px;
+    padding-top: 48px;
+    color: var(--notfullywhite);
+    font-family: 'IBM Plex Sans';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125% ;
+}
+
+.Getexpert{
+    color: var(--notfullywhite);
+    font-family: 'IBM Plex Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 155.556% ;
+    padding-left: 36px;
+    padding-top: 12px;
+}
+
+.Dollar-4{
+    color: var(--notfullywhite);
+    font-family: 'IBM Plex Sans';
+    font-size: 65px;
+    font-weight: 700;
+    line-height:  80% ;
+    padding-left: 42px;
+    padding-top: 36px;
+    display: flex;
+    align-items: center;
+}
+
+.Dollar-4 span{
+    color: #FCFAF9;
+    font-family: 'IBM Plex Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:  160% ;
+    letter-spacing: -0.2px;
+    padding-left: 10px;
+}
+
+.Iphone{
+    width: 296px;
+    height: 61px;
+    border-radius: 12px;
+    background: var(--darkblue);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    margin-left: 42px;
+    margin-top: 43px;
+}
+
+.Iphone p{
+    color: var(--notfullywhite);
+    text-align: center;
+    font-family: 'IBM Plex Sans';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 177.778% ;
+    letter-spacing: -0.18px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.Iphone img{
+    padding-left: 77px;
+}
+
+.Android{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    width: 296px;
+    height: 61px;
+    border-radius: 12px;
+    background: var(--notfullywhite);
+    margin-left: 42px;
+    margin-top: 16px;
+
+}
+
+.Android p{
+    color: var(--darkblue);
+    text-align: center;
+    font-family: 'IBM Plex Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 177.778% ;
+    letter-spacing: -0.18px;
+    padding-left: 10px;
+}
+
+.Android img{
+    padding-left: 55px;
+}
+
+
+footer{
+    margin-left: 24px;
+    margin-top: 25px;
+    width: 375px;
+    height: auto;
+    position: relative;
+}
+
+footer p{
+    margin-top: 32px;
+    color: var(--darkblue);
+    font-family: 'IBM Plex Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 162.5%;
+}
+
+footer p span{
+    color: var(--darkblue);
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.icons{
+    margin-top: 64px;
+    margin-bottom: 80px;
+}

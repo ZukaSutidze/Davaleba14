@@ -1,0 +1,123 @@
+@media (width>767px) {
+    
+
+header{
+    padding: 0px;
+    width:768px;
+    overflow: visible;
+}
+
+.Tablet{
+    display: block;
+}
+
+.equalizer{
+    margin-top: 62px;
+    padding-left: 39px;
+}
+
+.Wemake{
+    width: 520px;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: -0.727px;
+    padding-left: 39px;
+    z-index: 10;
+}
+
+.Asystem{
+    width: 514px;
+    font-size: 18px;
+    line-height: 155.556%; 
+    padding-left: 39px;
+    z-index: 10;
+}
+
+.Blurs{
+    position: absolute;
+    top:0px;
+}
+
+.Container{
+    margin-top: 250px;
+    height: 960px;
+}
+
+.Parent{
+    width: 696px;
+    height: 600px;
+}
+
+.tabletphone{
+    position: absolute;
+    top: -138px;
+    left: 64px;
+    z-index: 10;
+}
+
+.tabletshapes{
+    position: absolute;
+    top: 0px;
+    left: 229px;
+    z-index: 5;
+}
+
+.Tabletphone{
+    position: absolute;
+    top: 0px;
+    right: -4px;
+}
+
+.Orangeoval{
+    width: 399px;
+    height: 546px;
+    top:150px;
+    left: 239px;
+    z-index: 15;
+}
+
+.EQ{
+    padding-left: 48px;
+    font-size: 32px;
+    line-height:125%;
+    width: 302px;
+}
+
+.Getexpert{
+    padding-left: 48px;
+    width: 350px;
+    font-size: 18px;
+    line-height:155.556%;
+}
+
+footer{
+    width: 768px;
+}
+
+footer p{
+    width: 366px;
+    margin-bottom: 85px;
+    padding-left: 33px;
+}
+
+.tableteq2{
+    position: absolute;
+    top: -25px;
+    left: 33px;
+}
+
+.tableticons{
+    position: absolute;
+    bottom: 114px;
+    right: 39px;
+}
+
+.Mobile{
+    display: none;
+}
+.Desktop{
+    display: none;
+}
+
+
+}

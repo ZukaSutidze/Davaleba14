@@ -1,0 +1,168 @@
+@media (width >  1439px) {
+    
+    header{
+        width: 100vw;
+    }
+    
+    
+    .Desktop{
+        display: block;
+        position: absolute;
+    }
+
+    .D-blur1{
+        top: 100px;
+        right: 156px;
+    }
+
+    .D-blur2{
+        top: 370px;
+        right: 156px;
+    }
+
+    .D-corner{
+        top: 0px;
+        left: 0;
+    }
+
+    .D-shapes{
+        top: 0;
+        right: 0;
+    }
+
+    .equalizer{
+        padding-left: 165px;
+    }
+
+    .Wemake{
+        padding-left: 165px;
+        width: 1015px;
+        font-size: 88px;
+        line-height: 100% ;
+        letter-spacing: -1px;
+    }
+
+    .Asystem{
+        padding-left: 165px;
+        padding-top: 40px;
+        width: 825px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 170%;
+    }
+
+    .Mobile{
+        display: none;
+    }
+    .Tablet{
+        display: none;
+    }
+
+    .Parent{
+        width: 1110px;
+        height: 600px;
+        position: relative;
+    }
+
+    .D-phone{
+        width: 312px;
+        height: 642px;
+        left: 118px;
+        top: -200px;
+    }
+
+    .Orangeoval{
+        width: 446px;
+        height: 625px;
+        flex-shrink: 0;
+        position: absolute;
+        left: 569px;
+        top: 90px;
+    }
+
+    .EQ{
+        font-size: 40px;
+        line-height: 130% ;
+        padding-left: 54px;
+    }
+
+    .Getexpert{
+        width: 388px;
+        font-size: 20px;
+        line-height:170% ;
+        padding-left: 54px;
+        padding-top: 22px;
+    }
+
+    .Dollar-4{
+        padding-top: 39px;
+    }
+
+    .Iphone , 
+    .Android{
+        width: 333px;
+        height: 61px;
+        margin-left: 54px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .Iphone img{
+        padding-left: 100px;
+    }
+
+    .Android img{
+        padding-left: 90px;
+    }
+
+    .D-mainshapes{
+        top: -10px;
+        left: 346px;
+    }
+
+    footer{
+        width: 100vw;
+        position: relative;
+        height: 150px;
+    }
+
+    footer p{
+        margin: 0;
+        position: absolute;
+        font-size: 16px;
+        line-height: 162.5%;
+        width: 366px;
+        left: 450px;
+        bottom: 80px;
+    }
+
+    footer p span{
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .desktopeq2{
+        position: absolute;
+        left: 166px;
+        margin-bottom: 138px;
+    }
+
+    .D-icons{
+        position: absolute;
+        right: 165px;
+        bottom: 121px;
+    }
+
+    .Iphone:hover{
+        transition: all 2s ease-in-out;
+        background: #66E2DC;
+    }
+
+    .Android:hover{
+        transition: all 2s ease-in-out;
+        background: #FFB964;
+    }
+
+    
+}
