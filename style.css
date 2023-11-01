@@ -223,7 +223,7 @@ header{
 
 
 footer{
-    margin-left: 24px;
+    padding-left: 24px;
     margin-top: 25px;
     width: 375px;
     height: auto;
@@ -249,6 +249,8 @@ footer p span{
     font-weight: 700;
     line-height: 26px;
 }
+
+
 
 .icons{
     margin-top: 64px;
